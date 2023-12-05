@@ -1,0 +1,180 @@
+:root {
+  --green: #06aa48;
+  --grey: #ccc;
+  --grey2: #d7d7d7;
+  --grey3: #f3f3f3;
+  --dark-grey: #c0c0c0;
+  --white: #fff;
+  --blue: #087ffe;
+  --font: "Open Sans", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+
+  font-family: var(--font);
+}
+
+header {
+  background-color: var(--green);
+  width: 100%;
+  text-align: center;
+  height: 5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--white);
+}
+
+.title {
+  padding: 10px;
+}
+
+.table_container-classification {
+  overflow: auto;
+}
+.table th:not(:last-child) {
+  border-right: 1px solid var(--grey);
+  font-weight: 700;
+}
+
+.table tr {
+  border-bottom: 2px solid var(--grey2);
+}
+
+.table td:not(:last-child) {
+  border-right: 2px solid var(--grey3);
+}
+
+th,
+td {
+  padding: 9px;
+  text-align: left;
+  font-size: 1.2em;
+  width: 2em;
+}
+
+.table {
+  border-collapse: collapse;
+  margin-bottom: 3em;
+  border-top: 0.5px solid var(--grey2);
+  border-bottom: 0.5px solid var(--grey2);
+  text-align: center;
+  width: 130%;
+}
+
+.table_club-name {
+  width: 9em;
+}
+
+.table tr:nth-child(odd),
+.table-players tr:nth-child(odd) {
+  background-color: var(--grey3);
+}
+
+/* Estilos para a coluna 'P' (Pontos) */
+.table td:nth-child(2),
+.table-players td:nth-child(2) {
+  background-color: var(--dark-grey);
+  font-weight: bold;
+  color: white;
+}
+
+.table th:not(:last-child),
+.table td:not(:last-child) {
+  border-right: 2px solid var(--grey2);
+}
+
+.table_club-classification .position {
+  color: var(--blue);
+  font-weight: bold;
+  padding-right: 4px;
+}
+
+.table_club-classification .club-name {
+  font-weight: bold;
+}
+
+.table_goals-column {
+  text-align: center;
+  font-weight: 700;
+}
+.table_goals-title {
+  text-align: center;
+}
+
+.table_container-players {
+  height: 200px;
+  overflow: auto;
+}
+
+.table-players {
+  width: 100%;
+}
+
+.players-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid var(--grey);
+  border-top: 1px solid var(--grey);
+  font-size: 0.8em;
+  font-weight: 800;
+  margin-top: 1em;
+}
+
+.artilheiros-container {
+  padding-top: 10px;
+  border-top: 1px solid var(--grey);
+  margin-bottom: 5em;
+}
+
+.swiper-container {
+  width: 100%;
+  margin-bottom: 3em;
+  overflow: hidden;
+}
+
+.swiper-slide {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  width: 100%;
+}
+
+.swiper-slide > p {
+  border-top: 1px solid var(--grey);
+  padding: 15px 0 0px 0;
+  width: 100%;
+}
+
+.swiper-slide-title {
+  text-align: center;
+}
+
+.header-matches {
+  text-align: center;
+  justify-content: space-between;
+  display: flex;
+  border-bottom: 1px solid var(--grey);
+  flex-direction: row-reverse;
+  padding: 1em 0;
+  border-top: 1px solid var(--grey);
+  background-color: var(--grey2);
+  align-items: center;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  position: static;
+  color: var(--green);
+}

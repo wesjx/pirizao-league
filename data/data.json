@@ -1,0 +1,158 @@
+{
+    "championship": {
+        "clubs": [
+            {
+                "club": "Guarani",
+                "players": [
+                    {
+                        "nome": "Jogador 1",
+                        "gols": 5
+                    },
+                    {
+                        "nome": "Jogador 2",
+                        "gols": 4
+                    }
+                ],
+                "points": 10,
+                "golsContra": 3,
+                "matches": 4,
+                "wins": 3,
+                "draws": 1,
+                "loses": 0
+            },
+            {
+                "club": "Lixao",
+                "players": [
+                    {
+                        "nome": "Jogador 3",
+                        "gols": 5
+                    },
+                    {
+                        "nome": "Jogador 4",
+                        "gols": 5
+                    }
+                ],
+                "points": 9,
+                "golsContra": 4,
+                "matches": 4,
+                "wins": 3,
+                "draws": 0,
+                "loses": 1
+            },
+            {
+                "club": "Carmo",
+                "players": [
+                    {
+                        "nome": "Jogador 5",
+                        "gols": 5
+                    },
+                    {
+                        "nome": "Jogador 6",
+                        "gols": 10
+                    }
+                ],
+                "points": 7,
+                "golsContra": 14,
+                "matches": 4,
+                "wins": 2,
+                "draws": 1,
+                "loses": 1
+            },
+            {
+                "club": "Canario",
+                "players": [
+                    {
+                        "nome": "Jogador 7",
+                        "gols": 4
+                    },
+                    {
+                        "nome": "Jogador 8",
+                        "gols": 5
+                    }
+                ],
+                "points": 7,
+                "golsContra": 9,
+                "matches": 4,
+                "wins": 2,
+                "draws": 1,
+                "loses": 1
+            },
+            {
+                "club": "Santo Antonio",
+                "players": [
+                    {
+                        "nome": "Jogador 9",
+                        "gols": 7
+                    },
+                    {
+                        "nome": "Jogador 10",
+                        "gols": 0
+                    }
+                ],
+                "points": 6,
+                "golsContra": 7,
+                "matches": 4,
+                "wins": 2,
+                "draws": 0,
+                "loses": 2
+            },
+            {
+                "club": "Maromba",
+                "players": [
+                    {
+                        "nome": "Jogador 11",
+                        "gols": 3
+                    },
+                    {
+                        "nome": "Jogador 12",
+                        "gols": 2
+                    }
+                ],
+                "points": 6,
+                "golsContra": 8,
+                "matches": 4,
+                "wins": 2,
+                "draws": 0,
+                "loses": 2
+            },
+            {
+                "club": "Bonfim",
+                "players": [
+                    {
+                        "nome": "Jogador 13",
+                        "gols": 3
+                    },
+                    {
+                        "nome": "Jogador 14",
+                        "gols": 6
+                    }
+                ],
+                "points": 1,
+                "golsContra": 15,
+                "matches": 4,
+                "wins": 0,
+                "draws": 1,
+                "loses": 3
+            },
+            {
+                "club": "Pireneus",
+                "players": [
+                    {
+                        "nome": "Jogador 13",
+                        "gols": 3
+                    },
+                    {
+                        "nome": "Jogador 14",
+                        "gols": 0
+                    }
+                ],
+                "points": 0,
+                "golsContra": 14,
+                "matches": 4,
+                "wins": 0,
+                "draws": 0,
+                "loses": 4
+            }
+        ]
+    }
+}
