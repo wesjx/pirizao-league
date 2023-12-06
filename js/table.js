@@ -58,11 +58,17 @@ function makeClubTable(data) {
     positionSpan.classList.add("position");
     positionSpan.textContent = `${index + 1} `;
 
+    const escudoImg = document.createElement("img");
+    escudoImg.src = `./assets/escudo-${clube.club}.jpg`;
+    escudoImg.alt = "Escudo do Clube";
+    escudoImg.classList.add("escudo");
+    
     const clubSpan = document.createElement("span");
     clubSpan.classList.add("club-name");
     clubSpan.textContent = clube.club;
-
+    
     clubNameCell.appendChild(positionSpan);
+    clubNameCell.appendChild(escudoImg);
     clubNameCell.appendChild(clubSpan);
 
     line.appendChild(clubNameCell);

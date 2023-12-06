@@ -12,6 +12,7 @@ function makePlayerTable(data) {
       allPlayers.push({
         playerName: jogador.nome,
         goals: jogador.gols,
+        escudo: `./assets/escudo-${club.club}.jpg`,
       });
     });
   });
@@ -20,13 +21,21 @@ function makePlayerTable(data) {
 
   sortedPlayers.forEach((jogador) => {
     const line = document.createElement("tr");
-    const playerNameCell = document.createElement("td");
-    playerNameCell.textContent = jogador.playerName;
-    line.appendChild(playerNameCell);
+
+    const playerNameAndEscudoCell = document.createElement("td");
+
+    playerNameAndEscudoCell.innerHTML = `
+      <img src="${jogador.escudo}" alt="Escudo do Clube" class="escudo">
+      <span>${jogador.playerName}</span>
+    `;
+
+    line.appendChild(playerNameAndEscudoCell);
+
     const goalsCell = document.createElement("td");
     goalsCell.textContent = jogador.goals;
     goalsCell.classList.add("table_goals-column");
     line.appendChild(goalsCell);
+
     table.appendChild(line);
   });
 
